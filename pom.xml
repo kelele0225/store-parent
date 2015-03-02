@@ -5,6 +5,12 @@
 	<version>1.0.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>store-parent</name>
+	
+	<modules>
+		<module>store-parent-third-party</module>
+		<module>store-parent-spring</module>
+	</modules>
+	
 	<properties>
 		<store-mail.version>1.77</store-mail.version>
 	
@@ -19,6 +25,7 @@
 		<log4j.version>1.2.16</log4j.version><!-- mailer is using 1.2.15 -->
 		<junit.version>4.8.2</junit.version>
 		<commons-validator.version>1.4.0</commons-validator.version>
+		<commons-codec.version>1.9</commons-codec.version>
 		
 	</properties>
 <!-- 	<prerequisites> -->
@@ -148,12 +155,14 @@
 				<artifactId>commons-validator</artifactId>
 				<version>${commons-validator.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>commons-codec</groupId>
+				<artifactId>commons-codec</artifactId>
+				<version>${commons-codec.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<modules>
-		<module>store-parent-third-party</module>
-	</modules>
-	
+		
 	<repositories>
 <!-- 	   <repository> -->
 <!--      	 <id>ecomm-nexus</id> -->
