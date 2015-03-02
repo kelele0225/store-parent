@@ -173,18 +173,11 @@
 
 
 	<distributionManagement>
-        <repository>
-            <id>usc-google-code-repo</id>
-            <name>Google Code Repo for USC (releases)</name>
-            <url>dav:https://usc.googlecode.com/svn/maven-repo/releases</url>
-            <uniqueVersion>false</uniqueVersion>
-        </repository>
-        <snapshotRepository>
-            <id>usc-google-code-snapshot</id>
-            <name>Google Code Repo USC (snapshots)</name>
-            <url>dav:https://usc.googlecode.com/svn/maven-repo/snapshots</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
+	   <repository>
+     	 <id>rpid-nexus</id>
+     	 <name>RPID Nexus Repository</name>
+    	  <url>http://build02.dev.real.com:8081/nexus/content/repositories/rpid-releases</url>
+       </repository>
     </distributionManagement>
 	<build>
 		<plugins>
