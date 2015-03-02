@@ -156,29 +156,29 @@
 	</modules>
 	
 	<repositories>
-	   <repository>
-     	 <id>ecomm-nexus</id>
-     	 <name>Ecommerce Nexus Repository</name>
-    	  <url>http://build02.dev.real.com:8081/nexus/content/repositories/releases</url>
-       </repository>
-	   <repository>
-     	 <id>rpid-nexus</id>
-     	 <name>RPID Nexus Repository</name>
-    	  <url>http://build02.dev.real.com:8081/nexus/content/repositories/rpid-releases</url>
-       </repository>
+<!-- 	   <repository> -->
+<!--      	 <id>ecomm-nexus</id> -->
+<!--      	 <name>Ecommerce Nexus Repository</name> -->
+<!--     	  <url>http://build02.dev.real.com:8081/nexus/content/repositories/releases</url> -->
+<!--        </repository> -->
+<!-- 	   <repository> -->
+<!--      	 <id>rpid-nexus</id> -->
+<!--      	 <name>RPID Nexus Repository</name> -->
+<!--     	  <url>http://build02.dev.real.com:8081/nexus/content/repositories/rpid-releases</url> -->
+<!--        </repository> -->
 		<repository>
 			<id>repo2.maven.org</id>
 			<url>http://repo2.maven.org/maven2</url>
 		</repository>
 	</repositories>
 
-	<distributionManagement>
-		<repository>
-			<id>real_repository</id>
-			<name>Real Repository</name>
-			<url>scpexe://maven@build01.dev.real.com/home/maven/realrepository</url>
-		</repository>
-	</distributionManagement>
+<!-- 	<distributionManagement> -->
+<!-- 		<repository> -->
+<!-- 			<id>real_repository</id> -->
+<!-- 			<name>Real Repository</name> -->
+<!-- 			<url>scpexe://maven@build01.dev.real.com/home/maven/realrepository</url> -->
+<!-- 		</repository> -->
+<!-- 	</distributionManagement> -->
 	<build>
 		<plugins>
 			<plugin>
