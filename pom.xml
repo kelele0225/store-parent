@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.real.global</groupId>
 	<artifactId>store-parent</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>store-parent</name>
 	<properties>
@@ -27,7 +27,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:kelele0225/store-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:kelele0225/store-parent.git</developerConnection>
-	    <tag>store-parent-1.0.3</tag>
+	    <tag>HEAD</tag>
 	</scm>
 	<dependencyManagement>
 		<dependencies>
