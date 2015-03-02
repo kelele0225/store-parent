@@ -150,9 +150,9 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-<!-- 	<modules> -->
-<!-- 		<module>store-parent-third-party</module> -->
-<!-- 	</modules> -->
+	<modules>
+		<module>store-parent-third-party</module>
+	</modules>
 	
 	<repositories>
 <!-- 	   <repository> -->
