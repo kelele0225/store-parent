@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.real.global</groupId>
 	<artifactId>store-parent</artifactId>
@@ -35,7 +34,7 @@
 			<dependency>
 				<groupId>com.real.global</groupId>
 				<artifactId>store-mail</artifactId>
-				<version>${store-mail.version></version>
+				<version>${store-mail.version&gt;</version>
 			</dependency>
 			
 			
@@ -172,13 +171,18 @@
 		</repository>
 	</repositories>
 
-<!-- 	<distributionManagement> -->
+	<distributionManagement>
+		   <repository>
+	     	 <id>ecomm-nexus</id>
+	     	 <name>Ecommerce Nexus Repository</name>
+	    	  <url>http://build02.dev.real.com:8081/nexus/content/repositories/releases</url>
+	       </repository>
 <!-- 		<repository> -->
 <!-- 			<id>real_repository</id> -->
 <!-- 			<name>Real Repository</name> -->
 <!-- 			<url>scpexe://maven@build01.dev.real.com/home/maven/realrepository</url> -->
 <!-- 		</repository> -->
-<!-- 	</distributionManagement> -->
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
