@@ -39,10 +39,29 @@
 	</scm>
 	<dependencyManagement>
 		<dependencies>
+			<!-- store parents -->			
+			<dependency>
+				<groupId>com.real.global</groupId>
+				<artifactId>store-parent-third-party</artifactId>
+				<version>1.0.5-SNAPSHOT</version>
+			</dependency>		
+			<dependency>
+				<groupId>com.real.global</groupId>
+				<artifactId>store-parent-spring</artifactId>
+				<version>1.0.5-SNAPSHOT</version>
+			</dependency>		
+			<dependency>
+				<groupId>com.real.global</groupId>
+				<artifactId>store-parent-others-test</artifactId>
+				<version>1.0.5-SNAPSHOT</version>
+			</dependency>
+			
+			<!-- end of store parents -->
+		
 			<dependency>
 				<groupId>com.real.global</groupId>
 				<artifactId>store-mail</artifactId>
-				<version>${store-mail.version&gt;</version>
+				<version>${store-mail.version}</version>
 			</dependency>
 			
 			
