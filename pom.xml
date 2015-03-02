@@ -9,6 +9,7 @@
 	<modules>
 		<module>store-parent-third-party</module>
 		<module>store-parent-spring</module>
+		<module>store-parent-others-test</module>
 	</modules>
 	
 	<properties>
