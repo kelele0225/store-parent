@@ -3,11 +3,11 @@
 	<parent>
 		<groupId>com.real.global</groupId>
 		<artifactId>store-parent</artifactId>
-		<version>1.0.2</version>
+		<version>1.0.3-SNAPSHOT</version>
 	</parent>
 	<groupId>com.real.global</groupId>
 	<artifactId>store-parent-third-party</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>store parent third party</name>
 	
@@ -126,8 +126,4 @@
 			<version>${commons-validator.version}</version>
 		</dependency>
 	</dependencies>
-
-  <scm>
-    <tag>store-parent-1.0.2</tag>
-  </scm>
 </project>
