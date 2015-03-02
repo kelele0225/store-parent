@@ -25,6 +25,11 @@
 <!-- 	<prerequisites> -->
 <!-- 		<maven>3.0.2</maven> -->
 <!-- 	</prerequisites> -->
+	<scm>
+		<connection>scm:git:git@github.com:kelele0225/store-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:kelele0225/store-parent.git</developerConnection>
+	    <tag>HEAD</tag>
+	</scm>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -176,25 +181,6 @@
 	</distributionManagement>
 	<build>
 		<plugins>
-			<plugin>
-				<artifactId>maven-assembly-plugin</artifactId>
-				<configuration>
-					<descriptors>
-						
-						<descriptor>src/assemble/env/int.xml</descriptor>
-						<descriptor>src/assemble/env/prod.xml</descriptor>
-					</descriptors>
-				</configuration>
-				<executions>
-					<execution>
-						<id>make-assembly</id>
-						<phase>package</phase>
-						<goals>
-							<goal>attached</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
