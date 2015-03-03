@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.real.global</groupId>
-	<artifactId>store-parent</artifactId>
+	<artifactId>rpid-parent</artifactId>
 	<version>1.0.7-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>store-parent</name>
+	<name>rpid-parent</name>
 	
 	<modules>
-		<module>store-parent-third-party</module>
-		<module>store-parent-spring</module>
-		<module>store-parent-others-test</module>
+		<module>rpid-parent-third-party</module>
+		<module>rpid-parent-spring</module>
+		<module>rpid-parent-others-test</module>
 	</modules>
 	
 	<properties>
@@ -42,17 +42,17 @@
 			<!-- store parents -->			
 			<dependency>
 				<groupId>com.real.global</groupId>
-				<artifactId>store-parent-third-party</artifactId>
+				<artifactId>rpid-parent-third-party</artifactId>
 				<version>1.0.7-SNAPSHOT</version>
 			</dependency>		
 			<dependency>
 				<groupId>com.real.global</groupId>
-				<artifactId>store-parent-spring</artifactId>
+				<artifactId>rpid-parent-spring</artifactId>
 				<version>1.0.7-SNAPSHOT</version>
 			</dependency>		
 			<dependency>
 				<groupId>com.real.global</groupId>
-				<artifactId>store-parent-others-test</artifactId>
+				<artifactId>rpid-parent-others-test</artifactId>
 				<version>1.0.7-SNAPSHOT</version>
 			</dependency>
 			

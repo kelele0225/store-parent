@@ -2,13 +2,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.real.global</groupId>
-		<artifactId>store-parent</artifactId>
+		<artifactId>rpid-parent</artifactId>
 		<version>1.0.7-SNAPSHOT</version>
 	</parent>
 	<groupId>com.real.global</groupId>
-	<artifactId>store-parent-third-party</artifactId>
+	<artifactId>rpid-parent-third-party</artifactId>
 	<version>1.0.7-SNAPSHOT</version>
-	<name>store parent third party</name>
+	<name>rpid parent third party</name>
 	
 	<properties>
 		<main.basedir>${basedir}/../..</main.basedir>
