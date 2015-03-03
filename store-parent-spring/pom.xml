@@ -3,11 +3,11 @@
 	<parent>
 		<groupId>com.real.global</groupId>
 		<artifactId>store-parent</artifactId>
-		<version>1.0.6-SNAPSHOT</version>
+		<version>1.0.6</version>
 	</parent>
 	<groupId>com.real.global</groupId>
 	<artifactId>store-parent-spring</artifactId>
-	<version>1.0.6-SNAPSHOT</version>
+	<version>1.0.6</version>
 	<name>store parent spring</name>
 	
 	<properties>
